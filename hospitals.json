@@ -552,6 +552,12 @@
         "type": "burn_center"
     },
     {
+        "name": "ABA Certified - Torrance Memorial's Burn Center",
+        "lat": 33.8107749,
+        "lng": -118.3438015,
+        "type": "burn_center"
+    },
+    {
         "name": "ABA Certified - UC San Diego Health Regional Burn Center",
         "lat": 32.7553116,
         "lng": -117.1655247,
@@ -588,9 +594,15 @@
         "type": "burn_center"
     },
     {
+        "name": "ABA Certified - Miami Burn Center",
+        "lat": 25.7916705,
+        "lng": -80.2126015,
+        "type": "burn_center"
+    },
+    {
         "name": "ABA Certified - The Burn and Reconstructive Center at HCA Florida Kendall Hospital",
-        "lat": 25.7310036,
-        "lng": -80.3862433,
+        "lat": 25.7310902,
+        "lng": -80.3860708,
         "type": "burn_center"
     },
     {
@@ -708,9 +720,57 @@
         "type": "burn_center"
     },
     {
+        "name": "ABA Certified - Timothy J. Harnar Burn Center",
+        "lat": 33.5892032,
+        "lng": -101.8919947,
+        "type": "burn_center"
+    },
+    {
         "name": "ABA Certified - USAISR Burn Center",
         "lat": 29.4611612,
         "lng": -98.4155628,
+        "type": "burn_center"
+    },
+    {
+        "name": "ABA Certified - University of Chicago Burn Center",
+        "lat": 41.7882101,
+        "lng": -87.6044182,
+        "type": "burn_center"
+    },
+    {
+        "name": "ABA Certified - The University of Kansas Health System Burnett Burn Center",
+        "lat": 39.0571097,
+        "lng": -94.6095438,
+        "type": "burn_center"
+    },
+    {
+        "name": "ABA Certified - Children's Hospital of Michigan Burn Center",
+        "lat": 42.351889,
+        "lng": -83.054788,
+        "type": "burn_center"
+    },
+    {
+        "name": "ABA Certified - Burn Care Center at MetroHealth",
+        "lat": 41.4604102,
+        "lng": -81.697947,
+        "type": "burn_center"
+    },
+    {
+        "name": "ABA Certified - Shriners Children's Ohio Burn Center",
+        "lat": 39.7741205,
+        "lng": -84.1684105,
+        "type": "burn_center"
+    },
+    {
+        "name": "ABA Certified - Hospital for Sick Children Burn Center",
+        "lat": 43.6572672,
+        "lng": -79.3875622,
+        "type": "burn_center"
+    },
+    {
+        "name": "ABA Certified - Shriners Hospitals for Children \u2014 Texas",
+        "lat": 29.3095039,
+        "lng": -94.7771501,
         "type": "burn_center"
     }
 ]

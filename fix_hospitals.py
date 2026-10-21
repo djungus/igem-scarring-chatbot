@@ -10,14 +10,14 @@ curated_aba = {
     "Leon S. Peters Burn Center": "Community Regional Medical Center, Fresno, CA",
     "Los Angeles General Medical Center Regional Burn Center": "Los Angeles General Medical Center, Los Angeles, CA",
     "Santa Clara Valley Medical Center Regional Burn Center": "Santa Clara Valley Medical Center, San Jose, CA",
-    "Torrance Memorial's Burn Center": "Torrance Memorial Medical Center, Torrance, CA",
+    "Torrance Memorial's Burn Center": "3330 Lomita Boulevard, Torrance, CA",
     "UC San Diego Health Regional Burn Center": "UC San Diego Medical Center, San Diego, CA",
     "UCSF Health Saint Francis Hospital — Bothin Burn Center": "Saint Francis Memorial Hospital, San Francisco, CA",
     "HCA HealthONE Swedish": "Swedish Medical Center, Englewood, CO",
     "UCHealth Burn and Frostbite Center — Anschutz Medical Campus": "UCHealth University of Colorado Hospital, Aurora, CO",
     "Connecticut Burn Center — Bridgeport Hospital": "Bridgeport Hospital, Bridgeport, CT",
     "The Burn Center at MedStar Washington Hospital Center": "MedStar Washington Hospital Center, Washington, DC",
-    "Miami Burn Center": "Ryder Trauma Center, Miami, FL",
+    "Miami Burn Center": "1611 NW 12th Avenue, Miami, FL",
     "The Burn and Reconstructive Center at HCA Florida Kendall Hospital": "Kendall Regional Medical Center, Miami, FL",
     "Warden Burn Center at Orlando Health": "Orlando Regional Medical Center, Orlando, FL",
     "Walter L. Ingram Burn Center — Grady Memorial Hospital": "Grady Memorial Hospital, Atlanta, GA",
@@ -29,7 +29,7 @@ curated_aba = {
     "Hennepin Healthcare Burn Center": "Hennepin County Medical Center, Minneapolis, MN",
     "The Burn Center at Cooperman Barnabas": "Cooperman Barnabas Medical Center, Livingston, NJ",
     "Clark Burn Center": "Upstate University Hospital, Syracuse, NY",
-    "William Randolph Hearst Burn Center": "Weill Cornell Medical Center, New York, NY",
+    "William Randolph Hearst Burn Center": "525 East 68th Street, New York, NY",
     "North Carolina Jaycee Burn Center": "UNC Medical Center, Chapel Hill, NC",
     "Akron Children's Hospital Burn Center": "Akron Children's Hospital, Akron, OH",
     "Legacy Oregon Burn Center": "Legacy Emanuel Medical Center, Portland, OR",
@@ -38,8 +38,16 @@ curated_aba = {
     "South Carolina Burn Center at MUSC": "MUSC Medical Center, Charleston, SC",
     "Blocker Burn Unit": "UTMB Health, Galveston, TX",
     "Parkland Burn Center": "Parkland Memorial Hospital, Dallas, TX",
-    "Timothy J. Harnar Burn Center": "UMC Health System, Lubbock, TX",
-    "USAISR Burn Center": "Brooke Army Medical Center, San Antonio, TX"
+    "Timothy J. Harnar Burn Center": "602 Indiana Avenue, Lubbock, TX",
+    "USAISR Burn Center": "Brooke Army Medical Center, San Antonio, TX",
+    # ABA centres not already covered by a SOAR hospital entry
+    "University of Chicago Burn Center": "5841 South Maryland Avenue, Chicago, IL",
+    "The University of Kansas Health System Burnett Burn Center": "University of Kansas Hospital, Kansas City, KS",
+    "Children's Hospital of Michigan Burn Center": "Children's Hospital of Michigan, Detroit, MI",
+    "Burn Care Center at MetroHealth": "MetroHealth Medical Center, Cleveland, OH",
+    "Shriners Children's Ohio Burn Center": "1 Childrens Plaza, Dayton, OH",
+    "Hospital for Sick Children Burn Center": "555 University Avenue, Toronto, ON",
+    "Shriners Hospitals for Children — Texas": "815 Market Street, Galveston, TX"
 }
 
 with open('hospitals.json', 'r', encoding='utf-8') as f:
@@ -48,29 +56,36 @@ with open('hospitals.json', 'r', encoding='utf-8') as f:
 # Keep only SOAR hospitals
 soar_hospitals = [h for h in hospitals if h.get("type") == "soar_hospital"]
 
+# Previous ABA entries, kept as a fallback if a lookup fails this run
+previous_aba = {h["name"]: h for h in hospitals if h.get("type") == "burn_center"}
+
 new_entries = []
 
 for display_name, query_name in curated_aba.items():
+    name = f"ABA Certified - {display_name}"
     url = f"https://nominatim.openstreetmap.org/search?q={urllib.parse.quote(query_name)}&format=json&limit=1"
+    data = None
     try:
         req = urllib.request.Request(url, headers={'User-Agent': 'CareBot/2.0'})
         with urllib.request.urlopen(req) as response:
             data = json.loads(response.read().decode())
-            if data:
-                lat = float(data[0]['lat'])
-                lng = float(data[0]['lon'])
-                new_entries.append({
-                    "name": f"ABA Certified - {display_name}",
-                    "lat": lat,
-                    "lng": lng,
-                    "type": "burn_center"
-                })
-                print(f"Success: {display_name}")
-            else:
-                print(f"Failed to find exact location for: {query_name}")
     except Exception as e:
         print(f"Error on {query_name}: {e}")
-        
+
+    if data:
+        new_entries.append({
+            "name": name,
+            "lat": float(data[0]['lat']),
+            "lng": float(data[0]['lon']),
+            "type": "burn_center"
+        })
+        print(f"Success: {display_name}")
+    elif name in previous_aba:
+        new_entries.append(previous_aba[name])
+        print(f"Kept previous location for: {display_name}")
+    else:
+        print(f"Failed to find exact location for: {query_name}")
+
     time.sleep(1.1)
 
 final_hospitals = soar_hospitals + new_entries

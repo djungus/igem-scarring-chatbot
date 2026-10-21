@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iGEM CareBot - Scarring Support & Information</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Leaflet CSS & JS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Emergency Resources Banner -->
+        <div class="emergency-banner">
+            <div class="banner-content">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-alert-circle"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+                <span>If you are in immediate distress or need personal medical advice, please <strong>call 911</strong>, contact <a href="https://resources.phoenix-society.org/contact-us" target="_blank">The Phoenix Society</a> or text HOME to 741741 (Crisis Text Line).</span>
+            </div>
+        </div>
+
+        <main class="chat-wrapper">
+            <header class="chat-header">
+                <div class="header-logo">
+                    <div class="logo-icon"></div>
+                    <div>
+                        <h1>CareBot</h1>
+                        <p>Informational Support for Scarring Recovery</p>
+                    </div>
+                </div>
+            </header>
+
+            <div class="chat-window" id="chat-window">
+                <!-- Initial Welcome Message -->
+                <div class="message bot-message">
+                    <div class="message-bubble">
+                        Hello. I'm CareBot, created by the iGEM team. I'm here to provide trusted information about scarring recovery, compiled from societies like the American Burn Association and the Global Scar Society.<br><br>
+                        <em>Note: I am an AI, not a doctor or a therapist. I cannot diagnose conditions or provide personal counseling.</em><br><br>
+                        How can I help you today?
+                    </div>
+                </div>
+            </div>
+
+            <div class="chat-input-area">
+                <form id="chat-form">
+                    <input type="text" id="user-input" placeholder="Ask about scar types, recovery timelines, or resources..." autocomplete="off" required>
+                    <button type="submit" aria-label="Send Message">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                    </button>
+                </form>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

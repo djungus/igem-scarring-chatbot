@@ -1,0 +1,716 @@
+[
+    {
+        "name": "The Trauma Center at Maricopa Medical Center",
+        "lat": 33.4576589,
+        "lng": -112.026112,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Arkansas Children's Hospital",
+        "lat": 34.7408049,
+        "lng": -92.2925603,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Grossman Burn Center",
+        "lat": 34.202521,
+        "lng": -118.6290818,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Leon S Peters Rehab Center",
+        "lat": 36.7429722,
+        "lng": -119.78422,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Memorial Hospital",
+        "lat": 35.3927361,
+        "lng": -119.0074977,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Regional Burn Center SCVMC",
+        "lat": 37.3156102,
+        "lng": -121.932964,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Burn Institute",
+        "lat": 32.8092481,
+        "lng": -117.1383966,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "UCI Health Regional Burn Center",
+        "lat": 33.7880473,
+        "lng": -117.8892035,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Shriners Children's Northern California",
+        "lat": 38.5529315,
+        "lng": -121.4551336,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Torrance Memorial Medical Center",
+        "lat": 33.8105213,
+        "lng": -118.3437184,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "UCI Health Regional Burn Center",
+        "lat": 33.7880473,
+        "lng": -117.8892035,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Burn and Reconstructive Center at Swedish Medical Center",
+        "lat": 39.653335,
+        "lng": -104.9798594,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Children's Hospital Colorado Anschutz Medical Campus, Aurora",
+        "lat": 39.7417871,
+        "lng": -104.8345896,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "UCHealth University of Colorado Hospital (UCH)",
+        "lat": 39.7421191,
+        "lng": -104.8414959,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Bridgeport Hospital",
+        "lat": 41.1892668,
+        "lng": -73.1663065,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "HCA Florida Blake Hospital",
+        "lat": 27.4821907,
+        "lng": -82.6226646,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "HCA Florida Kendall Hospital",
+        "lat": 25.730954,
+        "lng": -80.386287,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Tampa General Hospital",
+        "lat": 27.9376011,
+        "lng": -82.4585435,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "UF Health | Shands Burn Center",
+        "lat": 29.6395506,
+        "lng": -82.3424822,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Orlando Health Orlando Regional Medical Center",
+        "lat": 28.5263226,
+        "lng": -81.3784887,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Joseph M. Still Burn Center",
+        "lat": 33.8572261,
+        "lng": -84.6049979,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Grady Memorial Hospital",
+        "lat": 33.7517503,
+        "lng": -84.3821113,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Wellstar Cobb Medical Center",
+        "lat": 33.8570914,
+        "lng": -84.6051213,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Straub Medical Center",
+        "lat": 21.3028832,
+        "lng": -157.8505188,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Eastern Idaho Regional Medical Center/heliport #1",
+        "lat": 43.4701979,
+        "lng": -111.9915551,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Loyola Burn Center",
+        "lat": 41.8585738,
+        "lng": -87.8351169,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "OSF Saint Anthony Medical Center",
+        "lat": 42.2694783,
+        "lng": -89.0076483,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Ascension St. Vincent Hospital - Indianapolis",
+        "lat": 39.9080486,
+        "lng": -86.1970323,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Riley Hospital for Children",
+        "lat": 39.7778044,
+        "lng": -86.1805666,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Sidney & Lois Eskenazi Hospital",
+        "lat": 39.7775197,
+        "lng": -86.1842865,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "University of Iowa Hospitals & Clinics",
+        "lat": 41.658974,
+        "lng": -91.547979,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Ascension Via Christi Regional Burn Center",
+        "lat": 37.6994462,
+        "lng": -97.3322789,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "University Medical Center New Orleans LCMC Health",
+        "lat": 29.959861,
+        "lng": -90.081328,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Maine Medical Center",
+        "lat": 43.6531296,
+        "lng": -70.2761523,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Johns Hopkins University",
+        "lat": 39.4207966,
+        "lng": -76.66663,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Brigham and Women's Hospital",
+        "lat": 42.3361779,
+        "lng": -71.1068499,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Shriners Children's Boston",
+        "lat": 42.3631277,
+        "lng": -71.0665482,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Spaulding Rehabilitation Hospital Boston",
+        "lat": 42.3786053,
+        "lng": -71.0491999,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Massachusetts General Hospital Sumner Redstone Burn Center",
+        "lat": 42.3633005,
+        "lng": -71.0689537,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "DMC Detroit Receiving Hospital",
+        "lat": 42.3535426,
+        "lng": -83.0550941,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Trauma Burn Center-University-Mi",
+        "lat": 42.2838497,
+        "lng": -83.7295962,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Hennepin County Medical Center",
+        "lat": 44.883769,
+        "lng": -93.2882528,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Regions Hospital Burn Center",
+        "lat": 44.95569,
+        "lng": -93.0947334,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "University of Kansas Health System - Indian Creek Campus",
+        "lat": 38.9326597,
+        "lng": -94.6499994,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Mercy Burn Center - St. Louis",
+        "lat": 38.6443638,
+        "lng": -90.4466944,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Mercy Burn Center - Springfield",
+        "lat": 37.1793866,
+        "lng": -93.2750638,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "CHI Health St. Elizabeth",
+        "lat": 40.8076766,
+        "lng": -96.6267309,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "UMC Lions Burn Care Center",
+        "lat": 36.1597283,
+        "lng": -115.167614,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Cooperman Barnabas Medical Center",
+        "lat": 40.7629282,
+        "lng": -74.3037812,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "SUNY Upstate Medical University",
+        "lat": 43.0421295,
+        "lng": -76.139862,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Kessler Burn & Trauma Center",
+        "lat": 43.1226582,
+        "lng": -77.6254546,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Nassau County Fire Fighters Burn Center Foundation",
+        "lat": 40.7217495,
+        "lng": -73.5777784,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Stony Brook University Hospital",
+        "lat": 40.9094899,
+        "lng": -73.1153965,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Westchester Medical Center",
+        "lat": 41.0854151,
+        "lng": -73.8065799,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "W Randolph Heart Burn Center",
+        "lat": 40.7650298,
+        "lng": -73.9548503,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Atrium Health Wake Forest Baptist Medical Center",
+        "lat": 36.0898395,
+        "lng": -80.2685897,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "UNC Burn Clinic",
+        "lat": 35.9038563,
+        "lng": -79.0512786,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Nationwide Children's Hospital",
+        "lat": 39.9532936,
+        "lng": -82.979268,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "The Ohio State University Wexner Medical Center",
+        "lat": 39.9946534,
+        "lng": -83.0172043,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "University of Cincinnati Medical Center Emergency Room",
+        "lat": 39.1369871,
+        "lng": -84.5028049,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Legacy Chronic Wound and Outpatient Burn Clinic - a department of Legacy Emanuel Medical Center",
+        "lat": 45.5451186,
+        "lng": -122.6701251,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Crozer-Chester Medical Center Heliport",
+        "lat": 39.856832,
+        "lng": -75.3666922,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "LVHN",
+        "lat": 40.5669115,
+        "lng": -75.5237201,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "St. Christopher's Hospital for Children",
+        "lat": 40.006268,
+        "lng": -75.1256568,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Thomas Jefferson University Hospital Emergency Department",
+        "lat": 39.9491761,
+        "lng": -75.1575288,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "UPMC Mercy Trauma and Burn Center",
+        "lat": 40.4361249,
+        "lng": -79.9851707,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "West Penn Hospital",
+        "lat": 40.4619097,
+        "lng": -79.9463519,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Temple University Hospital - Main Campus",
+        "lat": 40.004938,
+        "lng": -75.1511132,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Rhode Island Hospital",
+        "lat": 41.8114484,
+        "lng": -71.4109295,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "MUSC Health University Medical Center",
+        "lat": 32.7849784,
+        "lng": -79.9472066,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Regional One Health Firefighters Burn Center",
+        "lat": 35.1408577,
+        "lng": -90.031547,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Vanderbilt Burn Center",
+        "lat": 36.14196,
+        "lng": -86.8015553,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Dell Seton Medical Center at The University of Texas",
+        "lat": 30.27651,
+        "lng": -97.7338352,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Memorial Hermann Memorial City Hospital Heliport",
+        "lat": 29.7806955,
+        "lng": -95.5451721,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Parkland Health",
+        "lat": 32.8121579,
+        "lng": -96.8350102,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Medical City Plano",
+        "lat": 33.0211868,
+        "lng": -96.7669646,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "University of Utah Hospital",
+        "lat": 40.7715716,
+        "lng": -111.8366784,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "VCU Health Evans-Haynes Burn Center",
+        "lat": 37.5406904,
+        "lng": -77.4291386,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "UW Medicine Regional Burn Center at Harborview",
+        "lat": 47.6039106,
+        "lng": -122.3239137,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Children's National Hospital",
+        "lat": 38.9271175,
+        "lng": -77.0145732,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "MedStar Washington Hospital Center",
+        "lat": 38.9292248,
+        "lng": -77.0144978,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Ascension Columbia St. Mary\u2019s Regional Burn Center",
+        "lat": 43.0607255,
+        "lng": -87.8800349,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "UW Health University Hospital Burn and Wound Center",
+        "lat": 43.0764549,
+        "lng": -89.4310587,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Royal Brisbane and Women's Hospital",
+        "lat": -27.4471109,
+        "lng": 153.0281818,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Foothills Medical Centre",
+        "lat": 51.0654136,
+        "lng": -114.1333465,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Sunnybrook Health Sciences Centre : Ross Tilley Burn Centre",
+        "lat": 43.7214226,
+        "lng": -79.3747775,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "Firefighters Burn Institute",
+        "lat": 38.5458021,
+        "lng": -121.4528652,
+        "type": "soar_hospital"
+    },
+    {
+        "name": "ABA Certified - Firefighters' Burn Treatment Unit \u2014 Edmonton",
+        "lat": 53.5205409,
+        "lng": -113.5232004,
+        "type": "burn_center"
+    },
+    {
+        "name": "ABA Certified - The Diane and Bruce Halle Arizona Burn Center \u2014 Valleywise Health",
+        "lat": 33.4569014,
+        "lng": -112.0262131,
+        "type": "burn_center"
+    },
+    {
+        "name": "ABA Certified - Leon S. Peters Burn Center",
+        "lat": 36.7434442,
+        "lng": -119.7849092,
+        "type": "burn_center"
+    },
+    {
+        "name": "ABA Certified - Los Angeles General Medical Center Regional Burn Center",
+        "lat": 34.0594056,
+        "lng": -118.2092376,
+        "type": "burn_center"
+    },
+    {
+        "name": "ABA Certified - Santa Clara Valley Medical Center Regional Burn Center",
+        "lat": 37.3055377,
+        "lng": -121.8504332,
+        "type": "burn_center"
+    },
+    {
+        "name": "ABA Certified - UC San Diego Health Regional Burn Center",
+        "lat": 32.7553116,
+        "lng": -117.1655247,
+        "type": "burn_center"
+    },
+    {
+        "name": "ABA Certified - UCSF Health Saint Francis Hospital \u2014 Bothin Burn Center",
+        "lat": 37.7896437,
+        "lng": -122.4165414,
+        "type": "burn_center"
+    },
+    {
+        "name": "ABA Certified - HCA HealthONE Swedish",
+        "lat": 39.6542801,
+        "lng": -104.9812154,
+        "type": "burn_center"
+    },
+    {
+        "name": "ABA Certified - UCHealth Burn and Frostbite Center \u2014 Anschutz Medical Campus",
+        "lat": 39.7643447,
+        "lng": -104.8333583,
+        "type": "burn_center"
+    },
+    {
+        "name": "ABA Certified - Connecticut Burn Center \u2014 Bridgeport Hospital",
+        "lat": 41.1894709,
+        "lng": -73.1674697,
+        "type": "burn_center"
+    },
+    {
+        "name": "ABA Certified - The Burn Center at MedStar Washington Hospital Center",
+        "lat": 38.9287492,
+        "lng": -77.0147693,
+        "type": "burn_center"
+    },
+    {
+        "name": "ABA Certified - The Burn and Reconstructive Center at HCA Florida Kendall Hospital",
+        "lat": 25.7310036,
+        "lng": -80.3862433,
+        "type": "burn_center"
+    },
+    {
+        "name": "ABA Certified - Warden Burn Center at Orlando Health",
+        "lat": 28.5255012,
+        "lng": -81.3782669,
+        "type": "burn_center"
+    },
+    {
+        "name": "ABA Certified - Walter L. Ingram Burn Center \u2014 Grady Memorial Hospital",
+        "lat": 33.7517323,
+        "lng": -84.3820052,
+        "type": "burn_center"
+    },
+    {
+        "name": "ABA Certified - The Burn Center at Eastern Idaho Regional Medical Center",
+        "lat": 43.4702675,
+        "lng": -111.9920955,
+        "type": "burn_center"
+    },
+    {
+        "name": "ABA Certified - Burn Program at Riley at IU Health",
+        "lat": 39.7772703,
+        "lng": -86.1800216,
+        "type": "burn_center"
+    },
+    {
+        "name": "ABA Certified - Richard M. Fairbanks Burn Center",
+        "lat": 39.7782095,
+        "lng": -86.184366,
+        "type": "burn_center"
+    },
+    {
+        "name": "ABA Certified - Our Lady of Lourdes Burn Center",
+        "lat": 30.1506951,
+        "lng": -92.0370498,
+        "type": "burn_center"
+    },
+    {
+        "name": "ABA Certified - Shriners Burn Center \u2014 Boston",
+        "lat": 42.3630174,
+        "lng": -71.0664468,
+        "type": "burn_center"
+    },
+    {
+        "name": "ABA Certified - Hennepin Healthcare Burn Center",
+        "lat": 44.971203,
+        "lng": -93.2603581,
+        "type": "burn_center"
+    },
+    {
+        "name": "ABA Certified - The Burn Center at Cooperman Barnabas",
+        "lat": 40.7634604,
+        "lng": -74.3048418,
+        "type": "burn_center"
+    },
+    {
+        "name": "ABA Certified - Clark Burn Center",
+        "lat": 43.0425629,
+        "lng": -76.1401517,
+        "type": "burn_center"
+    },
+    {
+        "name": "ABA Certified - William Randolph Hearst Burn Center",
+        "lat": 40.7647021,
+        "lng": -73.9540033,
+        "type": "burn_center"
+    },
+    {
+        "name": "ABA Certified - North Carolina Jaycee Burn Center",
+        "lat": 35.9050278,
+        "lng": -79.0506418,
+        "type": "burn_center"
+    },
+    {
+        "name": "ABA Certified - Akron Children's Hospital Burn Center",
+        "lat": 41.0792309,
+        "lng": -81.5257958,
+        "type": "burn_center"
+    },
+    {
+        "name": "ABA Certified - Legacy Oregon Burn Center",
+        "lat": 45.5438927,
+        "lng": -122.6700328,
+        "type": "burn_center"
+    },
+    {
+        "name": "ABA Certified - Lehigh Valley Health Network Regional Burn Center",
+        "lat": 40.5651728,
+        "lng": -75.5220282,
+        "type": "burn_center"
+    },
+    {
+        "name": "ABA Certified - Temple Burn Center",
+        "lat": 40.0053079,
+        "lng": -75.1508235,
+        "type": "burn_center"
+    },
+    {
+        "name": "ABA Certified - South Carolina Burn Center at MUSC",
+        "lat": 32.7844004,
+        "lng": -79.9472632,
+        "type": "burn_center"
+    },
+    {
+        "name": "ABA Certified - Blocker Burn Unit",
+        "lat": 29.3114714,
+        "lng": -94.7784275,
+        "type": "burn_center"
+    },
+    {
+        "name": "ABA Certified - Parkland Burn Center",
+        "lat": 32.8130987,
+        "lng": -96.8354013,
+        "type": "burn_center"
+    },
+    {
+        "name": "ABA Certified - USAISR Burn Center",
+        "lat": 29.4611612,
+        "lng": -98.4155628,
+        "type": "burn_center"
+    }
+]
